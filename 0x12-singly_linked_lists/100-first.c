@@ -1,5 +1,5 @@
 #include <stdio.h>
-void first(void)__attribute__((constructor));
+void first(void) __attribute__ ((constructor));
 /**
  * first -prints sentences bf main
  * function is executed
