@@ -1,16 +1,14 @@
 #include <stdio.h>
-
 /**
  * sum - sum of 2 int
  * @x: 1 unit
  * @y: 2 unit
- * Return: sum 
+ * Return: sum
  */
 int sum(int x, int y)
 {
-	return (x + y);
+return (x + y);
 }
-
 /**
  * division - divv of 2 int
  * @x: 1 unit
@@ -19,7 +17,7 @@ int sum(int x, int y)
  */
 int division(int x, int y)
 {
-        return (x / y);
+return (x / y);
 }
 
 /**
@@ -30,7 +28,7 @@ int division(int x, int y)
  */
 int minus(int x, int y)
 {
-        return (x - y);
+return (x - y);
 }
 
 /**
@@ -41,7 +39,7 @@ int minus(int x, int y)
  */
 int times(int x, int y)
 {
-        return (x * y);
+return (x * y);
 }
 
 /**
@@ -52,7 +50,5 @@ int times(int x, int y)
  */
 int modd(int x, int y)
 {
-        return (x % y);
+return (x % y);
 }
-
-
